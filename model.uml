@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2S8pkMWiEeejnsGUYXcyTQ" name="RootElement" URI="">
+  <packagedElement xmi:type="uml:Class" xmi:id="_3pu2UMWiEeejnsGUYXcyTQ" name="Deportistas">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CnZBQMWkEeejnsGUYXcyTQ" name="nacionalidad" type="_-BYC8MWkEeejnsGUYXcyTQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NR6DMMWkEeejnsGUYXcyTQ" name="edad" type="_GzTyoMWlEeejnsGUYXcyTQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VgDwYMWkEeejnsGUYXcyTQ" name="deporte" type="_-BYC8MWkEeejnsGUYXcyTQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YRIJ0MWkEeejnsGUYXcyTQ" name="posicion" type="_-BYC8MWkEeejnsGUYXcyTQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eNVCgMWkEeejnsGUYXcyTQ" name="minutos" type="_GzTyoMWlEeejnsGUYXcyTQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wrH-EMWlEeejnsGUYXcyTQ" name="goles" type="_GzTyoMWlEeejnsGUYXcyTQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gR5iUMWkEeejnsGUYXcyTQ" name="dar"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hfWz8MWkEeejnsGUYXcyTQ" name="volver"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jdU8gMWkEeejnsGUYXcyTQ" name="llevar"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_k24JYMWkEeejnsGUYXcyTQ" name="abrir"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_-BYC8MWkEeejnsGUYXcyTQ" name="String"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_GzTyoMWlEeejnsGUYXcyTQ" name="int"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_vzC8AMWkEeejnsGUYXcyTQ" name="William Jose">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c9U9wMWlEeejnsGUYXcyTQ" name="nacionalidad" type="_-BYC8MWkEeejnsGUYXcyTQ">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_lhO4gMWlEeejnsGUYXcyTQ" name="nacionalidad" value="brasileño"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sfviwMWlEeejnsGUYXcyTQ" name="posicion" type="_-BYC8MWkEeejnsGUYXcyTQ">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_IdC7IMWmEeejnsGUYXcyTQ" name="posicion" value="delantero"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ONoZsMWmEeejnsGUYXcyTQ" name="goles" type="_GzTyoMWlEeejnsGUYXcyTQ">
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Rw99kMWmEeejnsGUYXcyTQ" name="goles" value="4"/>
+    </ownedAttribute>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_2yL4YMWkEeejnsGUYXcyTQ" name=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_1JUdIMWkEeejnsGUYXcyTQ" client="_3pu2UMWiEeejnsGUYXcyTQ" supplier="_vzC8AMWkEeejnsGUYXcyTQ"/>
+</uml:Model>
